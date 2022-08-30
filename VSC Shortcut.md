@@ -1,5 +1,7 @@
 # VSCode Shortcuts
 
+🍎 mac OS ver.
+
 ### 동시에 여러 줄 수정하기
 
 ```
