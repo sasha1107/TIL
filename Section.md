@@ -23,8 +23,7 @@
 - 독립적으로 구분하거나 재사용할 수 있는 구획
 
 - 아래 이미지처럼 어떤 페이지에 붙여도 독립적으로 사용 가능하다면 article 요소를 고려해볼 것
-  ![스크린샷 2022-01-07 오후 1.06.42.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/053a5450-560b-475a-aca1-dcafd7ed1864/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-01-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.06.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220831T081924Z&X-Amz-Expires=86400&X-Amz-Signature=bbc49ba8a3274366676c2353f69af6fda650c9fb6b9dfea735107647c44660d5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-01-07%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE%25201.06.42.png%22&x-id=GetObject)
-
+  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/053a5450-560b-475a-aca1-dcafd7ed1864/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-01-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.06.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220831T081924Z&X-Amz-Expires=86400&X-Amz-Signature=bbc49ba8a3274366676c2353f69af6fda650c9fb6b9dfea735107647c44660d5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-01-07%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE%25201.06.42.png%22&x-id=GetObject" width=40% title="article" alt="article"></img>
 - 위젯도 article 요소를 사용함
 
 ## `<section>`
@@ -110,7 +109,7 @@
 - 보통 **각주(보충 설명)** 혹은 **광고 영역**으로 활용합니다.
   - ex) 나무위키 각주
 - 이 밖에도 양쪽 사이드에 위치해야 하는 요소를 그룹 지을 때 사용합니다.
-  ![갈색: <section>, 초록색: <aside>](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a95fa398-2fb0-48ca-8371-9550dbc0535c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220831T082528Z&X-Amz-Expires=86400&X-Amz-Signature=33ff4f2c1850ae10c5f8ab0473b1a221ca88071973cd4452f3c6e75182b5581a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject "갈색: <section>, 초록색: <aside>")
+  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a95fa398-2fb0-48ca-8371-9550dbc0535c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220831T082528Z&X-Amz-Expires=86400&X-Amz-Signature=33ff4f2c1850ae10c5f8ab0473b1a221ca88071973cd4452f3c6e75182b5581a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width=60% title="aside" alt="aside"></img>
   - 갈색: &lt;section&gt;, 초록색: &lt;aside&gt;
 
 ## `<footer>`
