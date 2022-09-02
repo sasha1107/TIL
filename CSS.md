@@ -100,7 +100,7 @@
 
 # width: `100%;`? VS `auto;`?
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/804f6390-9cc5-4a83-a8c9-dd60bd52af88/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T111243Z&X-Amz-Expires=86400&X-Amz-Signature=7ee16211441699d5919fa4321c01f6a35cd8057ca257d02a285b11efe0de3f6e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/804f6390-9cc5-4a83-a8c9-dd60bd52af88/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T111243Z&X-Amz-Expires=86400&X-Amz-Signature=7ee16211441699d5919fa4321c01f6a35cd8057ca257d02a285b11efe0de3f6e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="60%">
 
 ### `width: 100%;`
 
@@ -224,11 +224,10 @@ margin: 0 auto;
 
 ## **inline-element**
 
-![텍스트를 기준으로 전기줄이 있다 생각
-텍스트가 없으면 요소 아래쪽을 기준으로 전기줄이 있다 생각](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7ec7cdc9-ae88-4574-9963-a30887fc7a85/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T112230Z&X-Amz-Expires=86400&X-Amz-Signature=830b0466d036825436e183913591244b6b9cae923735e08e639964b0541395e7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
-
-텍스트를 기준으로 전기줄이 있다 생각
-텍스트가 없으면 요소 아래쪽을 기준으로 전기줄이 있다 생각
+<figure>
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7ec7cdc9-ae88-4574-9963-a30887fc7a85/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T112230Z&X-Amz-Expires=86400&X-Amz-Signature=830b0466d036825436e183913591244b6b9cae923735e08e639964b0541395e7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="60%">
+<figurecaption>텍스트를 기준으로 전기줄이 있다 생각<br>텍스트가 없으면 요소 아래쪽을 기준으로 전기줄이 있다 생각</figurecaption>
+</figure>
 
 - 종류
   - **text**
@@ -303,7 +302,7 @@ text-align: center;
 }
 ```
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8c317cf1-8f0b-464c-9b03-c6f7d7b86bfd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T112738Z&X-Amz-Expires=86400&X-Amz-Signature=9731ec89738f30306f6af703a381aae39416245437c7f34e00374354d7bed380&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width=50%>
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8c317cf1-8f0b-464c-9b03-c6f7d7b86bfd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T112738Z&X-Amz-Expires=86400&X-Amz-Signature=9731ec89738f30306f6af703a381aae39416245437c7f34e00374354d7bed380&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width=30%>
 
 - 결합자 (combinator)
   - 여기 들어갈 수 있는 모든 것들(>, 공백 등)
@@ -334,7 +333,7 @@ border : 1px solid currentColor 라고 명시적으로 적어줘도 됨
 </aside>
 
 <br>
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/49019a2a-e39d-454b-9f6d-6c04ab24c3b9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T112418Z&X-Amz-Expires=86400&X-Amz-Signature=cbfa36ed724c15ae915d553618888b305acb28e1f2df81ebad2a76b527d4e5aa&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="40%">
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/49019a2a-e39d-454b-9f6d-6c04ab24c3b9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T112418Z&X-Amz-Expires=86400&X-Amz-Signature=cbfa36ed724c15ae915d553618888b305acb28e1f2df81ebad2a76b527d4e5aa&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" width="30%">
 
 - selector specificity → VSCode에서 마우스 올리면 수치로 확인할 수 있다.
 - (0,1,1)
@@ -344,9 +343,10 @@ border : 1px solid currentColor 라고 명시적으로 적어줘도 됨
 
 # 마진 겹침 현상 (Margin Collapsing)
 
-<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18e104f2-a92c-434c-918e-1c3f1ce316a5/Untitled_%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T115402Z&X-Amz-Expires=86400&X-Amz-Signature=2e66334878e16e5ad00936d498781f5d8005d94c0a051207bfd25c109a96784f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled%2520%25E1%2584%2587%25E1%2585%25A9%25E1%2586%25A8%25E1%2584%2589%25E1%2585%25A1.jpg%22&x-id=GetObject">
+<img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18e104f2-a92c-434c-918e-1c3f1ce316a5/Untitled_%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220902T115402Z&X-Amz-Expires=86400&X-Amz-Signature=2e66334878e16e5ad00936d498781f5d8005d94c0a051207bfd25c109a96784f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled%2520%25E1%2584%2587%25E1%2585%25A9%25E1%2586%25A8%25E1%2584%2589%25E1%2585%25A1.jpg%22&x-id=GetObject" width="80%">
 - 마진 상쇄라고도 말함
-  > In CSS, the adjoining margins of two or more boxes (which might or might not be siblings) can combine to form a single margin. Margins that combine this way are said to collapse, and the resulting combined margin is called a collapsed margin.<br>-W3C
+
+> In CSS, the adjoining margins of two or more boxes (which might or might not be siblings) can combine to form a single margin. Margins that combine this way are said to collapse, and the resulting combined margin is called a collapsed margin.<br>-W3C
 
 > 블록의 top 및 bottom 마진은 때로는 (결합되는 마진 중 크기가) 가장 큰 한 마진으로 결합(combine, 상쇄(collapsed))됩니다, 마진 상쇄(margin collapsing)로 알려진 행동<br>
 > -MDN
@@ -357,7 +357,8 @@ border : 1px solid currentColor 라고 명시적으로 적어줘도 됨
 
 ### 마진 겹침 규칙
 
-- 마진 상쇄는 인접한 두 박스가 block-level 요소일 경우에만 적용 - `inline`, `inline-block`, `table-cell`, `table-caption` 등의 요소는 block-level이 X
+- 마진 상쇄는 인접한 두 박스가 block-level 요소일 경우에만 적용
+- `inline`, `inline-block`, `table-cell`, `table-caption` 등의 요소는 block-level이 X
 - 마진 값이 0이더라도 상쇄 적용
 - 좌우 마진은 겹치더라도 상쇄되지 X (상하 마진만 해당)
 
