@@ -36,13 +36,6 @@ body {
     border-radius: 30px;
 }
 
-.grass .header {
-    background-image: url(images/green.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 90%;
-}
-
 .grass .info {
     padding: 0px 22px 25px 22px;
 }
