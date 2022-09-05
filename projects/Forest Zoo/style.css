@@ -20,13 +20,13 @@ body {
 
 .character {
     text-align: center;
-    display: flex;
     justify-content: center;
     
 }
 
 .character img {
     width: 100%;
+    display: block;
 }
 
 .grass {
