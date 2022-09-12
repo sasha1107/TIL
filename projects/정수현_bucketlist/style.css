@@ -1,16 +1,12 @@
 /* Reset */
-ul, h1 {
+h1 {
     margin: 0;
-    /* padding-block-start:0; padding-block-end:0; padding-inline-start:0; padding-inline-end:0; */
 }
 
 ul {
+    margin: 0;
     padding-inline-start: 0px;
     list-style-type: none;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
     font-size: 0;
 }
 .title {
@@ -27,19 +23,17 @@ body {
     background-color: #efefef;
     width: 400px;
     border-radius: 28px;
-    margin: 0 auto;
-    margin-top: 120px;
-    border-radius: 28px;
+    margin: 100px auto;
+    box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.08);
 }
 
 .title {
     background-color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
     border-bottom: 4px solid #dddddd;
     vertical-align: middle;
-    border-top-left-radius: 28px;
-    border-top-right-radius: 28px;
+    border-radius: 28px 28px 0px 0px;
+    border-bottom: 4px solid #dddddd;
 }
 
 .title-box {
@@ -51,39 +45,34 @@ body {
 }
 
 .title-text {
-    /* title의 너비를 111px로 맞추기위해 */
     color: #ff1493;
-    margin-left: 24px;
+    margin-left: calc(30px + 4px - 10px);
     display: inline-block;
     vertical-align: inherit;
 }
-h1 {
+
+.title-text h1 {
     font-size: 19px;
-    color: #ff1493;
-}
-.content {
-    /* background-color: #efefef; */
-    /* 마진 겹침 해결 */
-    display: flow-root;
 }
 
+.content {
+    display: flow-root; /* 마진 겹침 해결 */
+}
 
 ul {
     margin: 30px;
 
 }
 li {
-    /* box-sizing: content-box; */
     background-color: #ffffff;
-    padding-top: 12px;
-    padding-bottom: 14px;
-    padding-left: 14px;
+    color: #333333;
+    padding: 12px 14px 14px 14px;
     margin: 12px 0px;
     font-size: 12px;
+    line-height: 1em;
+    font-weight: 500;
     border: 4px solid #aaaaaa;
     border-radius: 6px;
-    color: #333333;
-    line-height:1em;
 }
 
 #checked {

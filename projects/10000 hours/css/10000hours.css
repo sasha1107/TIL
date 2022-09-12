@@ -32,3 +32,31 @@
 /* Layout */
 
 /* Style */
+body {
+    background-color: rgba(91, 35, 134, 1);
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tit-timelaw {
+
+}
+
+.img-txt {
+
+}
+
+.img-quotes {
+
+}
+
+.txt-desc {
+
+}
+
+footer {
+    text-align: center;
+}
