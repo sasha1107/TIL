@@ -12,13 +12,17 @@ p {
 }
 a {
     text-decoration: none;
+    color: inherit;
+    text-decoration-color: inherit;
+}
+a:visited {
+    color: inherit;
 }
 
 
+/* Style */
 .login-section {
-    /* width: fit-content; */
-    margin: 100px auto;
-    background-color: lightpink;
+    margin: 200px;
     border: 1px solid #DBDBDB;
     border-radius: 5px;
     padding: 19px 16px 18px;
@@ -26,14 +30,12 @@ a {
     font-weight: 400;
     line-height: 15px;
 }
-/* .welcome-txt {
-    margin-bottom: 16px;
-} */
+.welcome-txt {
+    margin-top: 3px
+}
 
 .login-button {
-    /* width: fit-content; */
     width: 100%;
-    /* padding: 0px 108px 0px; */
     height: 40px;
     border-radius: 4px;
     background-color: #711BFF;
@@ -58,13 +60,18 @@ a {
 }
 .user {
     margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
     color: #767676;
-
+    
 }
-.id-pw {
-    display: inline-block;
+.forget-id-pw {
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
 }
-
 .register {
-    float: right;
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
 }
