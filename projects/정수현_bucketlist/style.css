@@ -13,7 +13,6 @@ ul {
     font-size: 0; /*html 개행 공백 제거 */
 }
 
-
 /* Style */
 body {
     background-color: #dddddd;
@@ -24,7 +23,7 @@ body {
     width: 400px;
     border-radius: 28px;
     margin: 100px auto;
-    box-shadow: 4px 4px 9px 0px rgba(0,0,0,0.08);
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.08);
 }
 
 .title {
@@ -61,7 +60,6 @@ body {
 
 ul {
     margin: 30px;
-
 }
 li {
     background-color: #ffffff;
