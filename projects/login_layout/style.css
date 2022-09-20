@@ -10,68 +10,110 @@ p {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
     color: inherit;
     text-decoration-color: inherit;
 }
+
 a:visited {
     color: inherit;
 }
 
-
-/* Style */
-.login-section {
-    margin: 200px;
-    border: 1px solid #DBDBDB;
-    border-radius: 5px;
-    padding: 19px 16px 18px;
-    font-size: 12px;
-    font-weight: 400;
+/* FONT */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+* {
+    font-family: "Spoqa Han Sans Neo", "sans-serif";
     line-height: 15px;
+    font-size: 12px;
 }
+
+/* STYLE */
+.login-section {
+    min-width: 350px;
+    max-width: 600px;
+    margin: 200px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 18px 15px 17px;
+}
+
+.txt-hide {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
 .welcome-txt {
-    margin-top: 3px
+    margin-top: 3px;
 }
 
 .login-button {
     width: 100%;
     height: 40px;
     border-radius: 4px;
-    background-color: #711BFF;
+    background-color: #711bff;
     margin: 16px auto;
+    cursor: pointer;
 }
 
-.logo-img {
+.login-button .logo-img {
     position: relative;
     top: -1px;
     margin-right: 4px;
     padding-top: 10px;
 }
-.login-txt {
+
+.login-button .login-txt {
     display: inline-block;
-    color: #FFFFFF;
+    position: relative;
+    bottom: 4px;
+    color: #ffffff;
     font-size: 12px;
     font-weight: 500;
     line-height: 40px;
     text-align: center;
-    position: relative;
-    bottom: 4px;
 }
+
 .user {
     margin-top: 1px;
-    display: flex;
-    justify-content: space-between;
     color: #767676;
-    
 }
-.forget-id-pw {
-    display: flex;
-    gap: 4px;
-    align-items: flex-end;
+
+.user .forget-id-pw * {
+    float: left;
 }
-.register {
-    display: flex;
-    gap: 4px;
-    align-items: flex-end;
+
+.user .forget-id-pw .forget-id::after {
+    display: inline-block;
+    content: ""; /*이 부분 스크린 리더가 읽게 됨*/
+    width: 1px;
+    height: 11px;
+    background-color: #767676;
+    margin: 0 4px;
+    vertical-align: -1px;
+}
+
+.forget-id-pw-icon,
+.register-icon {
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.user .register {
+    float: right;
+}
+.user .register * {
+    float: left;
+}
+
+.clearFix::after {
+    display: block;
+    content: "";
+    clear: both;
 }
