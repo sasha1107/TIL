@@ -28,7 +28,7 @@
     <body>
         <div class="grid grid-cols-2 m-12 gap-5">
             <div
-                class="col-span-2 sm:col-span-1 border-[3px] border-gray-700 bg-gray-300 bg-gray-100 text-center"
+                class="col-span-2 sm:col-span-1 border-[3px] border-gray-700 bg-gray-300 bg-gray-100 text-center flex justify-center items-center"
             >
                 <img
                     class="mr-0 ml-0 inline-block"
@@ -58,7 +58,7 @@
                         <div
                             class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                         >
-                            <img class="w-4 ml-1" src="img/mail.svg" />
+                            <img class="w-4 ml-1" src="img/mail.svg" alt="메일 아이콘"/>
                             abcd1234@likelion.org
                         </div>
                     </div>
@@ -67,9 +67,9 @@
                     >
                         <p class="p-1 font-[HBIOS-SYS] text-2xl">GitGub</p>
                         <div
-                            class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
+                            class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold hover:bg-gray-500 hover:text-gray-100"
                         >
-                            <img class="w-4 ml-1" src="img/github.svg" />
+                            <img class="w-4 ml-1" src="img/github.svg" alt="깃허브 아이콘" />
                             <a href="http://github.com/"
                                 >github.com/Aabcde1234</a
                             >
@@ -109,25 +109,25 @@
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/html5.svg" />
+                                <img class="w-4 ml-1" src="img/html5.svg" alt="HTML 아이콘" />
                                 HTML
                             </li>
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/css3.svg" />CSS /
+                                <img class="w-4 ml-1" src="img/css3.svg" alt="CSS 아이콘"/>CSS /
                                 Sass / Tailwind CSS
                             </li>
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/js.svg" />
+                                <img class="w-4 ml-1" src="img/js.svg" alt="자바스크립트 아이콘" />
                                 JavScript
                             </li>
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/react.svg" />
+                                <img class="w-4 ml-1" src="img/react.svg" alt="리액트 아이콘" />
                                 React.js
                             </li>
                         </ul>
@@ -142,13 +142,13 @@
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/figma.svg" />
+                                <img class="w-4 ml-1" src="img/figma.svg" alt="피그마 아이콘" />
                                 Figma
                             </li>
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/git.svg" /> Git
+                                <img class="w-4 ml-1" src="img/git.svg" alt="깃 아이콘"/> Git
                             </li>
                         </ul>
                     </div>
@@ -164,19 +164,19 @@
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/github.svg" />
+                                <img class="w-4 ml-1" src="img/github.svg" alt="깃허브 아이콘"/>
                                 GitHub
                             </li>
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/notion.svg" />
+                                <img class="w-4 ml-1" src="img/notion.svg" alt="노션 아이콘"/>
                                 Notion
                             </li>
                             <li
                                 class="border-[3px] border-gray-700 bg-gray-100 p-1 flex gap-2 font-[MonoplexKR-Regular] font-semibold"
                             >
-                                <img class="w-4 ml-1" src="img/discord.svg" />
+                                <img class="w-4 ml-1" src="img/discord.svg" alt="디스코드 아이콘"/>
                                 Discord
                             </li>
                         </ul>
@@ -187,48 +187,67 @@
                 class="border-[3px] border-gray-700 col-span-2 bg-gray-300 p-2 border-b-[5px] border-r-[5px]"
             >
                 <h2 class="mb-2 p-1 font-[HBIOS-SYS] text-2xl">Projects</h2>
-                <div class="sm:grid sm:grid-cols-3 sm:gap-2">
+                <div class="sm:grid sm:grid-cols-3 sm:gap-2 ">
                     <div
-                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular]"
+                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular] hover:bg-gray-500 hover:text-gray-100"
                     >
+                    <a href="http://github.com/">
                         <h3 class="font-extrabold text-lg">1만 시간의 법칙</h3>
                         <span class="text-sm ml-1">2022.08.29~</span>
-                        <p class="ml-1">이러이러한 프젝이다</p>
+                        <p class="ml-1 font-bold">HTML, CSS, JavaScript</p>
+                        <p class="ml-1">반응형 웹 페이지를 구현하는 프로젝트입니다.</p>
+                    </a>
                     </div>
                     <div
-                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular]"
+                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular] hover:bg-gray-500 hover:text-gray-100"
                     >
+                    <a href="http://github.com/">
                         <h3 class="font-extrabold text-lg">벤딩 머신</h3>
                         <span class="text-sm ml-1">2022.08.29~</span>
-                        <p class="ml-1">이러이러한 프젝이다</p>
+                        <p class="ml-1 font-bold">HTML, CSS, JavaScript</p>
+                        <p class="ml-1">미디어 쿼리를 활용하여 반응형 웹 페이지로 자판기 기능을 구현하는 프로젝트입니다.</p>
+                    </a>
                     </div>
                     <div
-                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular]"
+                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular] hover:bg-gray-500 hover:text-gray-100"
                     >
+                    <a href="http://github.com/">
                         <h3 class="font-extrabold text-lg">랜딩 페이지</h3>
                         <span class="text-sm ml-1">2022.08.29~</span>
-                        <p class="ml-1">이러이러한 프젝이다</p>
+                        <p class="ml-1 font-bold">HTML, CSS, JavaScript</p>
+                        <p class="ml-1">Lorem ipsum dolor sit amet.</p>
+                        
+                    </a>
                     </div>
                     <div
-                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular]"
+                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular] hover:bg-gray-500 hover:text-gray-100"
                     >
+                    <a href="http://github.com/">
                         <h3 class="font-extrabold text-lg">감귤마켓</h3>
                         <span class="text-sm ml-1">2022.08.29~</span>
-                        <p class="ml-1">이러이러한 프젝이다</p>
+                        <p class="ml-1 font-bold">HTML, CSS, JavaScript</p>
+                        <p class="ml-1">자신의 스토어에서 판매하고 있는 상품을 등록하여 홍보할 수 있는 SNS 웹 서비스입니다.</p>
+                    </a>
                     </div>
                     <div
-                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular]"
+                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular] hover:bg-gray-500 hover:text-gray-100"
                     >
-                        <h3 class="font-extrabold text-lg">감귤마켓</h3>
+                    <a href="http://github.com/">
+                        <h3 class="font-extrabold text-lg">프로젝트 1</h3>
                         <span class="text-sm ml-1">2022.08.29~</span>
-                        <p class="ml-1">이러이러한 프젝이다</p>
+                        <p class="ml-1 font-bold">HTML, CSS, JavaScript, React.js</p>
+                        <p class="ml-1">Lorem ipsum dolor sit amet.</p>
+                    </a>
                     </div>
                     <div
-                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular]"
+                        class="border-[3px] border-gray-700 bg-gray-100 p-1 font-[MonoplexKR-Regular] hover:bg-gray-500 hover:text-gray-100"
                     >
-                        <h3 class="font-extrabold text-lg">감귤마켓</h3>
+                    <a href="http://github.com/">
+                        <h3 class="font-extrabold text-lg">프로젝트 2</h3>
                         <span class="text-sm ml-1">2022.08.29~</span>
-                        <p class="ml-1">이러이러한 프젝이다</p>
+                        <p class="ml-1 font-bold">HTML, CSS, JavaScript, React.js</p>
+                        <p class="ml-1">Lorem ipsum dolor sit amet.</p>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -240,8 +259,11 @@
                     <h3
                         class="font-[MonoplexKR-Regular] font-extrabold text-lg"
                     >
-                        『알아서 잘 딱』 집필
+                        『알아서 잘 딱 깔끔하게 사자처럼』집필
                     </h3>
+                    <span class="font-[MonoplexKR-Regular] text-sm ml-1">
+                        2023.01.06 발간
+                    </span>
                 </div>
             </div>
             <div
@@ -256,7 +278,7 @@
                             멋쟁이사자처럼 프론트엔드 스쿨 3기
                         </h3>
                         <span class="font-[MonoplexKR-Regular] text-sm ml-1">
-                            2022.08.29~
+                            2022.08.29 ~ 2023.01.06
                         </span>
                     </div>
                 </div>
