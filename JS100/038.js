@@ -8,8 +8,8 @@
 // 입력 : 97 86 75 66 55 97 85 97 97 95
 // 출력 : 6
 
-let input = prompt().split(' ').sort((a,b)=> a-b).reverse();
-let set_score = [...new Set(input)].sort((a,b)=> a-b).reverse();
+let input = prompt().split(' ').sort((a,b)=> b-a);
+let set_score = [...new Set(input)].sort((a,b)=> b-a);
 let cnt = 0;
 
 for (let i = 0; i<3; i++){
