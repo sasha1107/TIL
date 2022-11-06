@@ -14,31 +14,19 @@
 // 만약 어떻게 해도 정량이 N이 되지 않는다면 -1을 출력합니다.
 
 
-let input = parseInt(prompt("N을 입력하세요."));
+let N = parseInt(prompt('정량을 입력하세요'), 10);
 let result = 0;
+
 while (true){
-    if (input % 7 === 0){
-        result += input / 7;
+    if (N%7 === 0){
+        result += parseInt(N/7, 10);
         console.log(result);
         break;
-    }
-    else if (input / 7 > 1){
-        result++;
-        input -= 7;
-        continue;
-    }
-    else if (input / 3 > 1){
-        result++;
-        input -=3;
-        continue;
-    }
-    else if (input % 3 === 0){
-        result += input / 3;
-        console.log(result);
-        break;
-    }
-    else {
-        console.log("-1");
-        break;
-    }
+  }
+N -= 3;
+result += 1;
+if (N < 0){
+console.log(-1);
+break;
+}
 }
