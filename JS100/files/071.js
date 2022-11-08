@@ -13,7 +13,6 @@
 //          'C': ['A'],
 //          'D': ['E','F']}
 
-
 // 출력
 // E D F A C B
 const graph = {

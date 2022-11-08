@@ -13,6 +13,7 @@
 // 10
 // ```
 
+
 const n = parseInt(prompt("숫자를 입력해주세요."));
 let result = [];
 let arr = Array(n).fill(1).map((n, index) => index + n);
