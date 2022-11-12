@@ -18,7 +18,6 @@ const { MaxEquation } = require("three");
 // **입력**
 // THISISSTRINGS
 // THISIS
-
 // **출력**
 // 6
 
@@ -27,7 +26,6 @@ const { MaxEquation } = require("three");
 // **입력**
 // THISISSTRINGS
 // TATHISISKKQQAEW
-
 // **출력**
 // 6
 
@@ -36,7 +34,6 @@ const { MaxEquation } = require("three");
 // **입력**
 // THISISSTRINGS
 // KIOTHIKESSISKKQQAEW
-
 // **출력**
 // 3
 
@@ -45,7 +42,6 @@ const { MaxEquation } = require("three");
 // **입력**
 // THISISSTRINGS
 // TKHKIKSIS
-
 // **출력**
 // 3
 // ```
