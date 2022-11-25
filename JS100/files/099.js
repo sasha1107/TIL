@@ -29,8 +29,6 @@
 // ['pass', 'pass', 'fail', 'fail']
 // ```
 
-
-
 const 돌의내구도 = [1, 2, 1, 4, 5, 2]
 const 토끼의점프력 = [2, 1, 3, 1]
 
@@ -38,15 +36,15 @@ function solution(돌의내구도, 토끼의점프력){
     let result= Array(토끼의점프력.length).fill('pass');
 
     for (let i =0 ; i < 토끼의점프력.length; i++) {
-        for (let j=1; j < 돌의내구도.length; j += 토끼의점프력[i]){
-            if (돌의내구도[j-1] < 0){
-                result[i]= "fail";
-                continue;
+        for (let j = 토끼의점프력[i] - 1; j < 돌의내구도.length; j += 토끼의점프력[i]) {
+            돌의내구도[j] -= 1;
+            if(돌의내구도[j] < 0) {
+                result[i] = "fail";
+                continue
             }
-            돌의내구도[j-1] -= 1;
         }
+        console.log(돌의내구도);
     }
-    console.log(돌의내구도);
     return result;
 }
 
