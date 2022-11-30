@@ -3,7 +3,7 @@ import iconHeart from '../../assets/images/icon-heart.svg'
 import iconHeartOn from '../../assets/images/icon-heart-on.svg'
 
 export const CardLi = styled.li`
-    width: 300px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     gap: 10px;
