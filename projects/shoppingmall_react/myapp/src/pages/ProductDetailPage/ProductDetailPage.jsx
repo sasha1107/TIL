@@ -48,7 +48,7 @@ export default function ProductDetailPage() {
     }
     useEffect(() => {
         console.log(count);
-    }, [count])
+    }, [])
     
 
     return (

@@ -3,8 +3,9 @@ import iconDelete from "../../assets/images/icon-delete.png"
 import { Link } from 'react-router-dom'
 
 export const DetailModal = styled.div`
-    width: 100vw;
+    width: 90vw;
     padding: 60px;
+    margin: 0 auto;
 `
 export const Close = styled(Link)`
     width: 22px;
@@ -60,16 +61,25 @@ export const SelectCount = styled.div`
 `
 
 export const BtnAddSub = styled.button`
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    background: none;
+    &.sub {
+        border-right: 1px solid #BDBDBD;
+    }
+    &.add {
+        border-left: 1px solid #BDBDBD;
+    }
+    
+    
 `
 export const SpanCount = styled.span`
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
