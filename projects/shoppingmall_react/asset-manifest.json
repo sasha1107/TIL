@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/TIL/projects/shoppingmall_react/static/css/main.b9807752.css",
-    "main.js": "/TIL/projects/shoppingmall_react/static/js/main.5872f6ef.js",
+    "main.js": "/TIL/projects/shoppingmall_react/static/js/main.45049968.js",
     "static/media/icon-shopping-cart-white.svg": "/TIL/projects/shoppingmall_react/static/media/icon-shopping-cart-white.441d73e268955e0e16f25fa56bcbaf72.svg",
     "static/media/icon-heart-on.svg": "/TIL/projects/shoppingmall_react/static/media/icon-heart-on.0f6bbd4903724c3c16387efb41f92a03.svg",
     "static/media/icon-heart.svg": "/TIL/projects/shoppingmall_react/static/media/icon-heart.f68a21bc77488dac8c34b7650d1237ab.svg",
     "static/media/icon-home.svg": "/TIL/projects/shoppingmall_react/static/media/icon-home.8275581a6863abe2142fe682a96b9e24.svg",
     "index.html": "/TIL/projects/shoppingmall_react/index.html",
     "main.b9807752.css.map": "/TIL/projects/shoppingmall_react/static/css/main.b9807752.css.map",
-    "main.5872f6ef.js.map": "/TIL/projects/shoppingmall_react/static/js/main.5872f6ef.js.map"
+    "main.45049968.js.map": "/TIL/projects/shoppingmall_react/static/js/main.45049968.js.map"
   },
   "entrypoints": [
     "static/css/main.b9807752.css",
-    "static/js/main.5872f6ef.js"
+    "static/js/main.45049968.js"
   ]
 }
