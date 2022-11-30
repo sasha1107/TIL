@@ -8,7 +8,7 @@ export const CartPageSection = styled.div`
 `
 
 export const CartPageContent = styled.div`
-  width: 1260px;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   gap: 40px;

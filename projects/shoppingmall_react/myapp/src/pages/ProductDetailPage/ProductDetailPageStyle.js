@@ -3,7 +3,7 @@ import iconDelete from "../../assets/images/icon-delete.png"
 import { Link } from 'react-router-dom'
 
 export const DetailModal = styled.div`
-    width: 90vw;
+    width: 80vw;
     padding: 60px;
     margin: 0 auto;
 `
