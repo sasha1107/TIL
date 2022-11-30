@@ -4,7 +4,9 @@ import shoppingCart from '../../assets/images/icon-shopping-cart-white.svg'
 import home from '../../assets/images/icon-home.svg'
 
 const CartLink = styled(Link)`
-    background: var(--main-color) no-repeat center / 40px 40px;
+    width: 50px;
+    height: 50px;
+    background: var(--main-color) no-repeat center / 32px 32px;
     background-image : ${(props) => (props.to === 'cart/'? `url(${shoppingCart})` : `url(${home})`)};
 `
 

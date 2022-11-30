@@ -3,7 +3,7 @@ import iconHeart from '../../assets/images/icon-heart.svg'
 import iconHeartOn from '../../assets/images/icon-heart-on.svg'
 
 export const CardLi = styled.li`
-    width: 380px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -11,6 +11,7 @@ export const CardLi = styled.li`
 export const BtnLike = styled.button`
     width: 22px;
     height: 22px;
+    position: relative;
     border: none;
     background: ${ props => (props.toggle ? `url(${iconHeartOn})` : `url(${iconHeart})` )} no-repeat center / contain;
     cursor: pointer;

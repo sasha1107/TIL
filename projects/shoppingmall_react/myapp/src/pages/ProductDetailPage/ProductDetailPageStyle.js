@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 export const DetailModal = styled.div`
     width: 80vw;
-    padding: 60px;
-    margin: 0 auto;
+    /* padding: 60px; */
+    margin: 100px auto;
 `
 export const Close = styled(Link)`
     width: 22px;

@@ -4,7 +4,7 @@ export const CartPageSection = styled.div`
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin-top: 160px;
+  margin-top: 100px;
 `
 
 export const CartPageContent = styled.div`
