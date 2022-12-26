@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-const searchImg = async () => {
+const searchImg = async (keyword) => {
     const response = await axios.get('https://api.unsplash.com/search/photos', {
         headers: {
             Authorization: "Client-ID SNrZVpkzidM3J4lXa200CcodE3uzwcx9N0Fa5FwHc3A"
         },
         params: {
-            query: 'flower'
+            query: keyword
         }
     }).catch(function (error) {
         if (error.response) {
