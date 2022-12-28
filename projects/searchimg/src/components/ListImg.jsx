@@ -1,7 +1,13 @@
-import React from 'react'
+import ItemImg from "./ItemImg"
 
-export default function ListImg() {
+export default function ListImg({images}) {
+  console.log(images)
+  const renderImages = images.map((image) => {
+    return <ItemImg key={image.id} image={image}/>
+  })
   return (
-    <div>ListImg</div>
+    <ul>
+      {renderImages}
+    </ul>
   )
 }

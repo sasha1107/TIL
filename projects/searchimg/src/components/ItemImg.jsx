@@ -1,7 +1,7 @@
-import React from 'react'
-
-export default function ItemImg() {
+export default function ItemImg({image}) {
   return (
-    <div>ItemImg</div>
+    <li>
+      <img src={image.urls.thumb} alt={image.alt_description}/>
+    </li>
   )
 }
