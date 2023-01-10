@@ -30,7 +30,6 @@ function App() {
     const result = await searchImg(keyword, page);
     console.log(result);
     setImages(result);
-    moreBtnRef.current.disabled = false;
   }
 
   const handleMorePage = async () => {
@@ -53,12 +52,10 @@ function App() {
         <form onSubmit={handleKeyword}>
           <label htmlFor="keyword" className="ir">검색어를 입력하세요</label>
           <Inp type="text" id="keyword" value={keyword} onChange={handleInp}/>
-        {/* <button>검색</button> */}
         </form>
       </InputCont>
       <ListImg images={images}/>
-
-      <BtnMore onClick={handleMorePage} ref={moreBtnRef}>MORE</BtnMore>
+      {images.length === 0 ? <></> : <BtnMore onClick={handleMorePage} ref={moreBtnRef}>MORE</BtnMore>}
     </Cont>
     <Footer />
       </>
