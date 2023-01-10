@@ -1,59 +1,64 @@
 import { useEffect, useRef, useState } from "react";
 import ListImg from "./components/ListImg";
-import SearchBar from "./components/SearchBar";
 import searchImg from "./imgApiAxios";
-// import searchImg from "./imgApiFetch";
-import styled from "styled-components";
 import "./app.css";
 import Logo from "./assets/logo.png"
 import Footer from "./components/Footer";
+import {
+  Cont,
+  InputCont,
+  LogoImg,
+  BtnMore,
+  Inp
 
-const Cont = styled.div`
-  padding: 100px;
-  overflow: scroll;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-`
-const InputCont = styled.div`
-  width: 100%;
-  text-align: center;
-`
-const LogoImg = styled.img`
-  width: 35%;
-`
-const BtnMore = styled.button`
-  &:disabled {
-    display: none;
-  }
-`
+} from "./app.style"
+
 function App() {
   const [images, setImages] = useState([]);
   const [page, setPage] = useState(1);
   const moreBtnRef = useRef(null);
+  const [keyword, setKeyword] = useState("");
 
-  const handleKeyword = async (keyword) => {
+  const handleInp = (e) => {
+    setKeyword(e.target.value);
+  }
+
+  const handleKeyword = async (e) => {
+    if (e.type === "submit"){
+      e.preventDefault();
+    }
     const result = await searchImg(keyword, page);
     console.log(result);
     setImages(result);
     moreBtnRef.current.disabled = false;
   }
-  const handleMorePage = () => {
+
+  const handleMorePage = async () => {
     setPage(page + 1);
   }
-  useEffect(() => {
 
+  useEffect(() => {
+    (async () => {
+    const result = await searchImg(keyword, page);
+    console.log(result);
+    setImages((prev) => [...prev, ...result]);
+    })();
   }, [page])
+
   return (
     <>
     <Cont>
       <InputCont>
         <LogoImg src={Logo} alt=""/>
-        <SearchBar searching={handleKeyword}/>
+        <form onSubmit={handleKeyword}>
+          <label htmlFor="keyword" className="ir">검색어를 입력하세요</label>
+          <Inp type="text" id="keyword" value={keyword} onChange={handleInp}/>
+        {/* <button>검색</button> */}
+        </form>
       </InputCont>
       <ListImg images={images}/>
-      <BtnMore onClick={handleMorePage} disabled ref={moreBtnRef}>MORE</BtnMore>
+
+      <BtnMore onClick={handleMorePage} ref={moreBtnRef}>MORE</BtnMore>
     </Cont>
     <Footer />
       </>
