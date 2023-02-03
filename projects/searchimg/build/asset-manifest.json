@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TIL/projects/searchimg/static/css/main.e95c78d5.css",
+    "main.js": "/TIL/projects/searchimg/static/js/main.2b1d9ecc.js",
+    "static/media/logo.png": "/TIL/projects/searchimg/static/media/logo.bcd1820a446728a5a1d6.png",
+    "index.html": "/TIL/projects/searchimg/index.html",
+    "main.e95c78d5.css.map": "/TIL/projects/searchimg/static/css/main.e95c78d5.css.map",
+    "main.2b1d9ecc.js.map": "/TIL/projects/searchimg/static/js/main.2b1d9ecc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e95c78d5.css",
+    "static/js/main.2b1d9ecc.js"
+  ]
+}
