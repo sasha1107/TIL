@@ -8,7 +8,7 @@ export const CardLi = styled.li`
     flex-direction: column;
     gap: 10px;
 `
-export const BtnLike = styled.button`
+export const BtnLike = styled.button<{toggle: boolean}>`
     width: 22px;
     height: 22px;
     position: relative;

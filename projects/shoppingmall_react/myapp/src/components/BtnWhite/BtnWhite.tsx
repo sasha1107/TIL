@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 const BtnTemplate = styled.button`
@@ -16,8 +16,8 @@ const BtnTemplate = styled.button`
     }
 `
 
-export default function BtnWhite(prop: ReactNode) {
+export default function BtnWhite({text}: {text: string}) {
     return (
-        <BtnTemplate>{props.text}</BtnTemplate>
+        <BtnTemplate>{text}</BtnTemplate>
     )
 }

@@ -20,7 +20,7 @@ export default function CartPage() {
           <SubTitle>쿠폰 사용</SubTitle>
           <Line/>
           <CouponSelect>
-            <SelectBox options = {coupons}/>
+            <SelectBox options={coupons}/>
           </CouponSelect>
         </CouponCont>
         <OrderCont>

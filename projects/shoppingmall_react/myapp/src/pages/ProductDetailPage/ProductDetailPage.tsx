@@ -24,8 +24,6 @@ import {
     ButtonCont,
     BtnBuy,
     DetailTit,
-
-
 } from './ProductDetailPageStyle'
 
 interface Data {
@@ -35,6 +33,7 @@ interface Data {
     thumbnailImg: string,
     detailInfoImage: string[]
 }
+
 
 export default function ProductDetailPage() {
     const [loadData, setLoadData] = useState<Data | null>(null);
@@ -57,6 +56,7 @@ export default function ProductDetailPage() {
     }
     useEffect(() => {
         console.log(count);
+        // eslint-disable-next-line
     }, [])
     
 

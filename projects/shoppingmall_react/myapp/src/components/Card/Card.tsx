@@ -22,7 +22,7 @@ export default function Card({productName, price, thumbnailImg,id}: CardProps) {
     
     return (
         <CardLi>
-            <Link to={url} data={productName}>
+            <Link to={url}>
             <ProductImage {...{thumbnailImg, productName}}/>
             </Link>
             <ProductTitle>

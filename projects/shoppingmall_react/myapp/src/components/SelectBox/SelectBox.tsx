@@ -7,13 +7,8 @@ const SelectCont = styled.select`
     font-size: 14px;
 `
 
-interface OptionInterface {
-    id: number,
-    optionName: string,
-    additionalFee: number
-}
 
-export default function SelectBox({options}: {options: OptionInterface[]}) {
+export default function SelectBox({options}: {options: string[]}) {
     console.log(options);
     return (
         <SelectCont>
