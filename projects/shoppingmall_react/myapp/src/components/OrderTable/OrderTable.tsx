@@ -1,4 +1,5 @@
-import { Header, HTr, TableCont} from './OrderTableStyle'
+import React from 'react'
+import { Header, TableCont} from './OrderTableStyle'
 
 export default function OrderTable() {
     return (

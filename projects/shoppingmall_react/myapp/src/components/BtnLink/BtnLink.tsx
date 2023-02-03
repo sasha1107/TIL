@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
 import shoppingCart from '../../assets/images/icon-shopping-cart-white.svg'
@@ -10,7 +11,7 @@ const CartLink = styled(Link)`
     background-image : ${(props) => (props.to === '/TIL/projects/shoppingmall_react/cart'? `url(${shoppingCart})` : `url(${home})`)};
 `
 
-export default function Cart({className}) {
+export default function Cart({className}: {className: string}) {
     if (className === "cart" ){
         return <CartLink to='/TIL/projects/shoppingmall_react/cart' className='link-btn'/>
     }

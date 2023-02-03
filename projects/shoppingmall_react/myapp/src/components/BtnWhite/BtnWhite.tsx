@@ -1,3 +1,4 @@
+import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 
 const BtnTemplate = styled.button`
@@ -14,7 +15,8 @@ const BtnTemplate = styled.button`
         color: red;
     }
 `
-export default function BtnWhite(props) {
+
+export default function BtnWhite(prop: ReactNode) {
     return (
         <BtnTemplate>{props.text}</BtnTemplate>
     )

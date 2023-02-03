@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 
 const Name = styled.strong`
@@ -5,7 +6,7 @@ const Name = styled.strong`
     cursor: pointer;
 `
 
-export default function ProductName({productName}) {
+export default function ProductName({productName}: {productName: string}) {
     return (
         <Name className='sl-ellipsis'>{productName}</Name>
     )

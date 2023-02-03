@@ -1,4 +1,5 @@
 // import './productPrice.css'
+import React from 'react'
 import styled from 'styled-components'
 
 const PriceTag = styled.strong`
@@ -13,7 +14,7 @@ const PriceTag = styled.strong`
     }
     cursor: pointer;
 `
-export default function ProductPrice({price}) {
+export default function ProductPrice({price}: {price: number}) {
     return (
         <PriceTag>
             {price.toLocaleString()}

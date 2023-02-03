@@ -1,11 +1,18 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { CardLi, BtnLike, ProductTitle } from './CardStyle'
 import ProductImage from './ProductImage/ProductImage'
 import ProductName from './ProductName/ProductName'
 import ProductPrice from './ProductPrice/ProductPrice'
 import { Link } from 'react-router-dom'
 
-export default function Card({productName, price, thumbnailImg,id}) {
+interface CardProps {
+    productName: string,
+    price: number,
+    thumbnailImg: string,
+    id: number
+}
+
+export default function Card({productName, price, thumbnailImg,id}: CardProps) {
     const [heart, setHeart] = useState(false)
 
     function handleLikeBtn(){
@@ -23,8 +30,7 @@ export default function Card({productName, price, thumbnailImg,id}) {
                 <BtnLike onClick={handleLikeBtn} toggle={heart}>
                 </BtnLike>
             </ProductTitle>
-            <ProductPrice {...{price}}/>
-            
+            <ProductPrice {...{price}}/>       
         </CardLi>
     )
 }

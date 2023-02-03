@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom'
-import { useState, useContext, useEffect } from 'react'
-import { callAPIResponse } from '../../database/callAPI.js'
-import FailLoadData from '../../components/Shared/FailLoadData/FailLoadData.jsx'
-import BtnWhite from '../../components/BtnWhite/BtnWhite.jsx'
+import React, { useState, useContext, useEffect } from 'react'
+import { callAPIResponse } from '../../database/callAPI'
+import FailLoadData from '../../components/Shared/FailLoadData/FailLoadData'
+import BtnWhite from '../../components/BtnWhite/BtnWhite'
 import { 
     DetailModal,
     Close,
@@ -28,15 +28,24 @@ import {
 
 } from './ProductDetailPageStyle'
 
+interface Data {
+    id: number,
+    productName: string,
+    price: number,
+    thumbnailImg: string,
+    detailInfoImage: string[]
+}
 
 export default function ProductDetailPage() {
-    const [loadData, setLoadData] = useState(null)
+    const [loadData, setLoadData] = useState<Data | null>(null);
     const [count, setCount] = useState(0)
-    const parameter = useParams().id; 
+    const parameter: string | undefined = useParams().id; 
     console.log(parameter);
     useContext(callAPIResponse).then(data => {
         console.log('셋팅');
-        setLoadData(data[parameter-1])
+        if (parameter !== undefined){
+            setLoadData(data[parseInt(parameter)-1])
+        }
     })
 
 

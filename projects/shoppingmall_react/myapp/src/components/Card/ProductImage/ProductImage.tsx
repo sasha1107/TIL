@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 
 const Thumbnail = styled.img`
@@ -7,7 +8,7 @@ const Thumbnail = styled.img`
     cursor: pointer;
 `
 
-export default function ProductImage({thumbnailImg, productName}) {
+export default function ProductImage({thumbnailImg, productName}: {thumbnailImg: string, productName: string}) {
     //https://test.api.weniv.co.kr/asset/img/5/thumbnailImg.jpg
     const url = "https://test.api.weniv.co.kr/" + thumbnailImg
     return (

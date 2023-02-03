@@ -11,6 +11,3 @@ export const Header = styled.thead`
     border-radius: 10px;
     padding: 20px 0px 17px 0px;
 `
-export const HTr = styled.tr`
-    
-`
