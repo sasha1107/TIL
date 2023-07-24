@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: black;
+                color: white;
+            }
+            section {
+                height: 200vh;
+                position: relative; /* 추가: 비디오의 위치 기준을 설정하기 위해 부모 요소에 relative 설정 */
+            }
+            .scene {
+                height: 100vh; /* 추가: 비디오의 높이를 화면에 맞춤 */
+            }
+            #myVideo {
+                position: fixed; /* 추가: 비디오를 화면에 고정시킴 */
+                top: 0; /* 추가: 비디오의 위치 조정 */
+                left: 0; /* 추가: 비디오의 위치 조정 */
+                width: 100vw; /* 추가: 비디오의 너비를 화면에 맞춤 */
+                height: 100vh; /* 추가: 비디오의 높이를 화면에 맞춤 */
+                overflow: hidden; /* 수정: 스크롤 비활성화 */
+                filter: brightness(0.5); /* 추가: 비디오의 밝기를 조정 */
+            }
+            #logo {
+                position: fixed; /* 추가: 로고를 비디오 위에 위치시킴 */
+                top: 50%; /* 추가: 로고의 위치 조정 */
+                left: 50%; /* 추가: 로고의 위치 조정 */
+                transform: translate(-50%, -50%); /* 추가: 로고의 위치 조정 */
+                width: 40vw; /* 추가: 로고의 너비를 조정 */
+                height: auto; /* 추가: 로고의 높이를 조정 */
+                z-index: 1; /* 추가: 로고를 비디오 위에 위치시킴 */
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="scene">
+                <video
+                    id="myVideo"
+                    src="https://static.toss.im/slash23/main_session_animation.mp4"
+                ></video>
+                <img 
+                    id="logo"
+                    src="https://static.toss.im/logos/svg/logo-slash23-white-2.svg"/>
+            </div>
+
+        </section>
+        <script>
+            const video = document.getElementById('myVideo');
+
+            // 비디오의 전체 재생 시간 (초)
+            const totalDuration = 52; // 예시로 21초로 설정합니다. 실제 비디오의 재생 시간에 맞게 수정해주세요.
+
+            // 비디오의 시작 시간과 종료 시간 설정 (초)
+            const startTime = 18
+            const endTime = 19.5;
+
+            // 스크롤 위치에 따라 비디오 재생 시간 느리게 설정
+            window.addEventListener('scroll', function () {
+                // 현재 스크롤 위치
+                const scrollTop = window.scrollY;
+
+                // 스크롤 위치를 비디오 재생 구간(19초 ~ 21초)에 비례하게 변환
+                const scrollPercentage =
+                    scrollTop /
+                    (document.body.scrollHeight/2 - window.innerHeight / 2);
+                const currentTime =
+                    startTime + scrollPercentage * (endTime - startTime);
+
+                // 비디오의 재생 시간을 설정 (19초에서 21초 사이의 값으로 변환)
+                video.currentTime = currentTime;
+            });
+
+            // 페이지 로드 시 비디오 재생 시간 초기화
+            window.addEventListener('load', function () {
+                video.currentTime = startTime;
+            });
+        </script>
+    </body>
+</html>
