@@ -1,0 +1,32 @@
+.bar {
+  height: 10px;
+  background-color: #ccc;
+  position: relative;
+  margin: 5px 0px; /* active marker 의 boxShadow 크기에 따라 결정 */
+}
+.marker {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: -1px; /* bar와 marker 의 크기 차이에 따라 결정 */
+  transform: translateX(-50%);
+}
+.active {
+  background-color: red;
+  box-shadow: 0 0 0 5px rgba(68, 143, 246, 0.3);
+}
+
+.textContainer {
+  background-color: rgba(68, 246, 240, 0.3);
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
