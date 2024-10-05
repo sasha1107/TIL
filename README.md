@@ -6,81 +6,83 @@
 
 # Wiki
 
-<table>
-<tr>
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-CheatSheet" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913457/noticon/eh4d0dnic4n1neth3fui.png" width="80px"/><p><code>TypeScript</code></p>
-    </a>
-</td>
-
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C-JS" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1570946287/noticon/qgdiv5ctkcneujidjuv1.png" width="80px"/><p><code>클린코드JS</code></p>
-    </a>
-</td>
-
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/React-Native" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566557331/noticon/d5hqar2idkoefh6fjtpu.png" width="80px"/><p><code>React Native</code></p>
-    </a>
-</td>
-
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/React-Hooks" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566557331/noticon/d5hqar2idkoefh6fjtpu.png" width="80px"/><p><code>React HOOKS</code></p>
-    </a>
-</td>
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/HTML" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566995514/noticon/jufppyr8htislboas4ve.png" width="80px"/><p><code>HTML</code></p>
-    </a>
-</td>
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/CSS" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566912109/noticon/puksfce6wca36hes1vom.png" width="80px"/><p><code>CSS</code></p>
-    </a>
-</td>
-</tr>
-<tr>
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/Redux" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567749614/noticon/zgdaxpaif5ojeduonygb.png" width="80px"/><p><code>Redux</code></p>
-    </a>
-</td>
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%BF%BC%EB%A6%AC" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1631622784/noticon/zwush4y3u0mgamlck9bq.png" width="80px"/><p><code>React Query</code></p>
-    </a>
-</td>
-    <td align='center' colspan='2' width='240px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/Life-Cycle-Method" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566557331/noticon/d5hqar2idkoefh6fjtpu.png" width="80px"/><p><code>React Life Cycle Method</code></p>
-    </a>
-</td>
-<td align='center' colspan='2' width='240px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/%EC%9D%B8%ED%84%B0%EB%A0%89%ED%8B%B0%EB%B8%8C-%EC%9B%B9" target="_blank">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="80px"/><p><code>Interactive Web</code></p>
-    </a>
-</td>
-
-</tr>
-
-<tr>
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/%EC%9C%A0%ED%8B%B8%ED%95%A8%EC%88%98-%EB%AA%A8%EC%9D%8C" target="_blank">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="80px"/><p><code>Util 팡션</code></p>
-    </a>
-</td>
-<td align='center' width='120px'>
-    <a href="https://github.com/sasha1107/TIL/wiki/Jotai" target="_blank">
-        <img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1675253216/noticon/wgvjgwcplbgftga12jd8.png" width="80px"/><p><code>Jotai</code></p>
-    </a>
-</td>
-</tr>
-</table>
+[github.com/sasha1107/TIL/wiki](github.com/sasha1107/TIL/wiki)
 
 ---
+
+<details>
+    <summary><h2>📁 Mini Projects</h2></summary>
+    <ul>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/10000_hours/"
+                >🔗 10000 hours(1만 시간의 법칙)</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/forest_zoo/"
+                >🔗 Forest Zoo</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/login_layout/"
+                >🔗 login_layout</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/bucketlist/"
+                >🔗 bucketlist</a
+            >
+        </li>
+        <li>
+            <a href="https://sasha1107.github.io/TIL/projects/zigzag/"
+                >🔗 zigzag</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/MBTI_Test/"
+                >🔗 MBTI_Test</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/CSS-character/"
+                >🔗 CSS-character</a
+            >
+        </li>
+        <li>
+            <a href="https://sasha1107.github.io/TIL/projects/Resume/"
+                >🔗 Resume</a
+            >
+        </li>
+        <li>
+            <a href="https://sasha1107.github.io/TIL/projects/survey/"
+                >🔗 survey</a
+            >
+        </li>
+        <li>
+            <a href="https://sasha1107.github.io/TIL/projects/tasklist/"
+                >🔗 tasklist</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/shoppingmall_react/"
+                >🔗 shoppingmall_react</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://sasha1107.github.io/TIL/projects/blog_react/"
+                >🔗 blog_react</a
+            >
+        </li>
+    </ul>
+</details>
 
 <details>
     <summary><h2>📁 JS100</h2></summary>
@@ -1102,78 +1104,4 @@
             </tr>
         </tbody>
     </table>
-</details>
-
-<details>
-    <summary><h2>📁 Mini Projects</h2></summary>
-    <ul>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/10000_hours/"
-                >🔗 10000 hours(1만 시간의 법칙)</a
-            >
-        </li>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/forest_zoo/"
-                >🔗 Forest Zoo</a
-            >
-        </li>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/login_layout/"
-                >🔗 login_layout</a
-            >
-        </li>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/bucketlist/"
-                >🔗 bucketlist</a
-            >
-        </li>
-        <li>
-            <a href="https://sasha1107.github.io/TIL/projects/zigzag/"
-                >🔗 zigzag</a
-            >
-        </li>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/MBTI_Test/"
-                >🔗 MBTI_Test</a
-            >
-        </li>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/CSS-character/"
-                >🔗 CSS-character</a
-            >
-        </li>
-        <li>
-            <a href="https://sasha1107.github.io/TIL/projects/Resume/"
-                >🔗 Resume</a
-            >
-        </li>
-        <li>
-            <a href="https://sasha1107.github.io/TIL/projects/survey/"
-                >🔗 survey</a
-            >
-        </li>
-        <li>
-            <a href="https://sasha1107.github.io/TIL/projects/tasklist/"
-                >🔗 tasklist</a
-            >
-        </li>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/shoppingmall_react/"
-                >🔗 shoppingmall_react</a
-            >
-        </li>
-        <li>
-            <a
-                href="https://sasha1107.github.io/TIL/projects/blog_react/"
-                >🔗 blog_react</a
-            >
-        </li>
-    </ul>
 </details>
