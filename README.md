@@ -4,7 +4,7 @@
 
 ---
 
-# Wiki
+# Wiki 📚
 
 [github.com/sasha1107/TIL/wiki](github.com/sasha1107/TIL/wiki)
 
